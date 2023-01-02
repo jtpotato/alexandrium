@@ -1,8 +1,7 @@
 <script>
-	import Thumbnail from '$lib/Thumbnail.svelte';
+	import BottomBar from "$lib/ui/BottomBar.svelte";
 </script>
 
-<div>
-	<p>Videos</p>
-	<Thumbnail />
+<div class="bg-stone-800 w-screen h-screen">
+	<BottomBar />
 </div>
