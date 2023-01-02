@@ -1,3 +1,7 @@
+<script>
+	import ProfilePicture from "./ProfilePicture.svelte";
+
+</script>
 <div class="absolute bottom-0 bg-stone-900 w-screen">
 	<div class="w-full h-full flex justify-center items-center p-2">
 		<!--Our cool circle-->
@@ -7,6 +11,9 @@
 			<div class="bg-stone-800 h-10 w-10 rounded-full flex justify-center items-center backdrop-filter backdrop-blur-sm bg-opacity-30">
 				<span class="material-symbols-outlined text-white select-none">publish</span>
 			</div>
+		</div>
+		<div class="absolute left-2">
+			<ProfilePicture />
 		</div>
 	</div>
 </div>
